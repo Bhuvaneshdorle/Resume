@@ -1,20 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: aliceblue">
+<html lang="en" style="background-color:#EEEEEE">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .name {
+  color: rgb(13, 77, 149);
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'Trebuchet MS';
+  font-style:oblique;
+}
+h2 {
+  color: rgb(25, 80, 117);
+}
+p[draggable] {
+  color: rgb(10, 12, 68);
+}
+* {
+  text-align: unset;
+  text-decoration: solid;
+}
+ol {
+  text-align: justify;
+}
+#linkedin {
+  color: rgb(0, 0, 0);
+  text-wrap: wrap;
+}
+li[value="1"] {
+  color: rgb(0, 0, 0);
+}
+h1 {
+  background-color: #dbe2ef;
+  text-align: center;
+}
+.email {
+  text-wrap: wrap;
+}
+
+    </style>
   </head>
   <body>
     <h1 class="name">Bhuvanesh Ganesh Dorle</h1>
     <h2>Software Developer Intern | YCCE | HTML | CSS | JavaScript | React</h2>
     <p draggable="true">Contact No.:+918010249345</p>
-    <p>Email: bhuvanesh@acchaventures.com</p>
+    <p class="email">Email: bhuvanesh@acchaventures.com</p>
     <p id="linkedin">
       <a href="https://linkedin.com/in/bhuvaneshdorle"
-        >linkedin.com/in/bhuvaneshdorle</a
-      >
+        >linkedin.com/in/bhuvaneshdorle</a>
     </p>
     <p>Nagpur</p>
     <hr />
@@ -93,7 +128,7 @@
     <hr />
     <h2>Hobbies</h2>
     <p>Badmintion</p>
-    <footer>
+    <footer> 
       <p>© Bhuvanesh Dorle</p>
     </footer>
   </body>
